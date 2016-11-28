@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="ec0664ad08b52c4122e31ebabe2cb0b065e0087f" datatype="html">
+        <source>I18n application demo</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="715c321d139ee947ce5dc6c5daec375863d5c2d3" datatype="html">
+        <source>This text should be translatable</source>
+        <target/>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
