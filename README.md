@@ -21,6 +21,8 @@ Error: Unexpected value 'CoolComponent' declared by the module 'AppModule'
 
 ## More Detailed Explanation
 
+This applications imports `CoolComponent` from another node_module `https://github.com/reynardmh/angular2-component-module`
+
 ```
 // app.module.ts
 import { CoolComponent } from 'angular2-component-module/lib';
@@ -38,7 +40,7 @@ import { CoolComponent } from 'angular2-component-module/lib';
 })
 ```
 
-And on the template, use the `<app-cool>` tag which is imported from angular2-component-module/lib
+On the template, we use the `<app-cool>` tag which is imported from `https://github.com/reynardmh/angular2-component-module`
 
 ```
 <h1 i18n>I18n application demo</h1>
@@ -46,7 +48,7 @@ And on the template, use the `<app-cool>` tag which is imported from angular2-co
 <app-cool></app-cool>
 ```
 
-If you build and run it, you can see the imported CoolComponent is working as expected. 
+If you build and run it, you can see the imported CoolComponent works as expected. 
 
 However running ng-xi18n failed: 
 
